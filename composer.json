@@ -1,0 +1,23 @@
+{
+  "name": "ahp/elasticsearch-query-builder",
+  "description": "Elasticsearch query builder to provide an easy way to build your queries.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amirhossein Pooladvand",
+      "email": "a.h.pooladvand@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "ongr/elasticsearch-dsl": "^7.0@dev",
+    "illuminate/support": "^6.9",
+    "elasticsearch/elasticsearch": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AHP\\": "src/"
+    }
+  }
+}
